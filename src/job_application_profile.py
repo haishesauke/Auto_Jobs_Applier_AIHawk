@@ -16,6 +16,11 @@ class SelfIdentification:
 
 @dataclass
 class LegalAuthorization:
+    India_wrok_authorization: "Yes"
+    requires_Indian_visa: "No"
+    legally_allowed_to_work_in_India: "Yes"
+    requires_Indian_sponsorship: "No"
+    
     eu_work_authorization: str
     us_work_authorization: str
     requires_us_visa: str
